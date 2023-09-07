@@ -1,0 +1,169 @@
+:root{
+    --color-one: #323838; 
+    --color-two: #101010 ;
+    --color-tree: #202323;
+    --color-discord: #7289DA;
+    --color-google: ;
+    --color-facebook: #3b5998;
+    --color-instagran: linear-gradient(#fccb90,#d57eeb);
+    
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    font-size: 36px;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-two);
+    color: rgba(0,0,0, 1);
+    padding: 10px 15px;
+}
+
+.start_img{
+    width: 70px;
+    display: inline-block;
+    border-radius: 40px;
+}
+.start_link{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link_discord{
+    display: inline-block;
+    align-items: center;
+    padding: 0 8px;
+
+}
+.link_img{
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--color-discord);
+}
+.link_img1{
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.link_img2{
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.link_img3{
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.link_img :hover{
+    box-shadow: 2px 4px 20px black;
+    transform: translate(0,15px);
+}
+
+
+.cuerpo{
+    height: 800px;
+    background-image: url(img/fondo.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.my{
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+.my_mane{
+    padding-bottom: 10px;
+}
+.end{
+    background-color: var(--color-tree);
+    font-size: 14px;
+    color: white;
+    
+}
+.descricion{
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px 0;
+}
+.box_img{
+
+    width: 40px;
+}
+
+.copy{
+    padding-top: 5px;
+    text-align: center;
+    border-top: 2px solid white;
+    margin-top: 20px;
+    
+    
+}
+@media (max-width:750px){
+    .des_discord{
+        /* padding-left: 4px;
+        color: white;
+        font-size: 12px; */
+        display: none;
+    }
+}
+@media (min-width:750px){
+    .start_img{
+        width: 95px;
+        display: inline-block;
+        border-radius: 40px;
+    }
+    .start_link{
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .link_discord{
+        display: inline-block;
+        align-items: center;
+        padding: 0 8px;
+    
+    }
+    .link_img{
+        width: 45px;
+        
+    }
+    .link_img1{
+        width: 45px;
+       
+    }
+    .link_img2{
+        width: 45px;
+        
+    }
+    .link_img3{
+        width: 45px;
+        
+    }
+    
+    .des_discord{
+        padding-left: 4px;
+        padding-right: 10px;
+        color: white;
+        font-size: 18px;   
+    }
+    .box_img{
+
+        width: 80px;
+    }
+
+}
